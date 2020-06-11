@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+
+*{
+  font-family: 'Open Sans Condensed', sans-serif;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 12px 0;
+  
+}
+
+img.user {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.bg-img {
+  background-image: url("paisaje.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  right: 50px;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 50px;
+  background-color: hsla(120, 10%, 100%, .6);
+  background-size: initial;
+  display: block;
+  border-radius: 10px;
+}
+  input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 1px;
+  background: #f1f1f1;
+ }
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.responsive{
+  height: auto;
+  max-width: 100%;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 575.98px) { 
+  .container {
+    padding-top: 35%;
+    margin: 0;
+    right: 0;
+    max-width: 500px;
+    border-radius: 0;  
+      }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .container {
+    padding-top: 35px;
+    margin: 0;
+    right: 0;
+    max-width: 400px;
+    border-radius: 0;   
+      }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .container {
+    right: 50px;
+    margin: 100px;
+    max-width: 300px;
+    padding: 50px;
+    background-color: hsla(120, 10%, 100%, .6);
+    background-size: initial;
+    display: block;
+    border-radius: 10px;
+  }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   .container {
+    margin: 5rem;
+    max-width: 400px;
+    background-color: hsla(120, 10%, 100%, .6);
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .container {
+    margin: 5rem;
+    max-width: 400px;
+    background-color: hsla(120, 10%, 100%, .6);
+    border-radius: 10px;
+  }
+  }
+
+
