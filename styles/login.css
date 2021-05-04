@@ -106,6 +106,7 @@ input:focus {
   .container {
     margin: 5rem;
     max-width: 250px;
+    height: 60vh;
     background-color: hsla(120, 10%, 100%, 0.6);
   }
 
